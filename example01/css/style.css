@@ -82,9 +82,23 @@ section{
 .slide{
     width: 100%;
     height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+.slide ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.slide ul li {
+    width: 1200px;
+    height: 300px;
 }
 .slide ul li a{
     height: 100%;
+    width: 100%;
 }
 .contents {
     width: 100%;
