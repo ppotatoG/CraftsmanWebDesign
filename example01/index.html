@@ -83,7 +83,7 @@
                     </ul>
                     <div class="cont">
                         <div class="notice on">
-                            <p>공지사항 텍스트 1</p>
+                            <p onclick="openpop('.popup')">공지사항 텍스트 1</p>
                             <p>공지사항 텍스트 2</p>
                             <p>공지사항 텍스트 3</p>
                             <p>공지사항 텍스트 4</p>
@@ -146,6 +146,15 @@
                 </li>
             </ul>
         </footer>
+
+        <div class="popup">
+            <div class="bg"></div>
+            <div class="wrap">
+                <button onclick="closepop('.popup')">X</button>
+                <h2>popup</h2>
+                <p>팝업 내용입니다</p>
+            </div>
+        </div>
     </div>
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/js.js"></script>

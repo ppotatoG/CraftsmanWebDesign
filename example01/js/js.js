@@ -17,9 +17,16 @@ $('.board .list a').on('click', function(){
     $(this).parent().parent().children().removeClass('on')
     $(this).parent().addClass('on')
 
-
     var contType = $(this).data('type')
 
     $('.'+contType).parent().children().removeClass('on')
     $('.'+contType).addClass('on')
 });
+
+function closepop(el){
+    $(el).hide()
+}
+
+function openpop(el){
+    $(el).show()
+}
