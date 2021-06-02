@@ -70,6 +70,10 @@ header ul.depth > li > a{
     background-color: slategray;
     text-align: center;
     line-height: 60px;
+    transition: background-color .2s;
+}
+header ul.depth > li > a:hover{
+    background: khaki;
 }
 header ul.nav li:hover ul.depth{
     opacity: 1;

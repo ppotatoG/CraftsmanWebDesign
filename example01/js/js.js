@@ -26,5 +26,5 @@ function closepop(el){
 }
 
 function openpop(el){
-    $(el).show()
+    $(el).sow()
 }
