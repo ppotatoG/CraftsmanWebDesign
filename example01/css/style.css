@@ -118,26 +118,32 @@ section{
     width: 100px;
 }
 .contents .board ul li.on a{
-    background: lavender;
+    background: #fff;
 }
 .contents .board ul li a{
     height: 30px;
     line-height: 30px;
     text-align: center;
 }
-.contents .board .cont {
+.contents .board .cont div {
     background-color: #fff;
     padding: 10px 20px;
+    display: none;
 }
-.contents .board .cont p{
+.contents .board .notice.on{
+    display: block;
+}
+.contents .board .gallery.on{
+    display: flex;
+}
+.contents .board .notice p{
     height: 30px;
     line-height: 30px;
 }
-.contents .board .cont.gallery{
-    display: flex;
+.contents .board .gallery{
     justify-content: space-between;
 }
-.contents .board .cont.gallery a{
+.contents .board .gallery a{
     background: chocolate;
     width: 100px;
     height: 100px;
