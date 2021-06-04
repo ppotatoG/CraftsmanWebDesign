@@ -16,14 +16,11 @@ $(document).ready(function(){
     }, function(){
         $('.depth, .depth_bg').stop().slideUp()	
     })
-
-    $('.tab .list li').on('click', function(){
-        let thisType = $(this).data('cont')
-
-        $('.tab .list li').removeClass('on')
-        $('.cont >div').removeClass('on')
-
-        $(this).addClass('on')
-        $('.'+thisType).addClass('on')
-    })
 });
+
+function openPop(){
+    $('.popup').fadeIn()
+}
+function closePop(){
+    $('.popup').fadeOut()
+}
