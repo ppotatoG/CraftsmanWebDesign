@@ -1,43 +1,33 @@
-# A-1 JUST쇼핑몰
-[demo](https://ppotatog.github.io/CraftsmanWebDesign/example01/)
+# A-2 Green복지재단
+[demo](https://ppotatog.github.io/CraftsmanWebDesign/example02/)
 
-작업시간 : 2시간 30분
+작업시간 : 기억안남
 
 Jquery
 ```
-// 세로 슬라이드
+// 가로 슬라이드
 $(document).ready(function(){
+    let width = $('.slide li').width();
+    let elLength = $('.slide li').length;
+
+    $('.slide ul').css('width',width*elLength);
+
     setInterval(function(){
-        $('.slide ul').animate({
-            top: '-300px'
-        },function(){
-            $('.slide ul li').eq(0).appendTo('.slide ul');
-            $('.slide ul').css({
-                top:0
-            });
+        $('.slide ul').animate({left:-width},1200,function(){
+            $('.slide li').eq(0).appendTo('.slide ul');
+            $('.slide ul').css('left',0);	
         });
-        
     },3000);    
 });
 ```
 ```
-//탭 메뉴
-$('.board .list a').on('click', function(){
-    $(this).parent().parent().children().removeClass('on')
-    $(this).parent().addClass('on')
+// 메뉴
+$(document).ready(function(){
+    $('.nav, .depth_bg').hover(function(){
+        $('.depth, .depth_bg').stop().slideDown()	
+    }, function(){
+        $('.depth, .depth_bg').stop().slideUp()	
+    })
+})
 
-    var contType = $(this).data('type')
-
-    $('.'+contType).parent().children().removeClass('on')
-    $('.'+contType).addClass('on')
-});
-```
-```
-//팝업
-function openpop(el){
-    $(el).sow()
-}
-function closepop(el){
-    $(el).hide()
-}
 ```
