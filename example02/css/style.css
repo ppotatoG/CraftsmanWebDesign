@@ -26,7 +26,7 @@ header {
     background: palegoldenrod;
     position: relative;
 }
-/* 
+
 header h1 {line-height: 100px;}
 header .nav {
     display: flex;
@@ -35,47 +35,29 @@ header .nav {
 header .nav li{
     width: 125px;
     height: 50px;
+    transition: background-color .2s;
 }
 header .nav li a{
     line-height: 30px;
-    transition: background-color .2s;
     padding: 10px;
     box-sizing: border-box;
-}
-header .nav li a:hover{
-    background: silver;
+    text-align: center;
 }
 header .depth{
     display: none;
-    background: #999;
+    z-index: 3;
+    position: relative;
 }
-header li.on a{background: #999;}
-header .nav.on .depth{display: block;}
+header .nav >li:hover{background:greenyellow;}
+header .nav .depth li:hover{background:greenyellow;}
+
 header .depth_bg {
-    height: 500px;
+    height: 150px;
     width: 100%;
-    background: #999;
+    background: yellow;
     position: absolute;
     top: 100px;
     left: 0;
-    z-index: -1;
-} */
-
-.slide{
-    width: 100%;
-    height: 300px;
-    position: relative;
-    overflow: hidden;
-}
-.slide ul {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-}
-.slide ul li {
-    width: 1200px;
-    height: 300px;
+    z-index: 2;
+    display: none;
 }
