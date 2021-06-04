@@ -81,3 +81,36 @@ header .depth_bg {
     float: left;
     background: #eee;
 }
+.contents {
+    display: flex;
+    height: 200px;
+}
+.contents > div{
+    width: 400px;
+}
+.tab .list{
+    display: flex;
+}
+.tab .list li{
+    width: 80px;
+}
+.tab .list li.on{
+    background: skyblue;
+}
+.tab .cont >div{
+    display: none;
+    height: 100%;
+}
+.tab .cont >div.on{
+    display: block;
+}
+.tab .gallery ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.tab .gallery ul li{
+    background: powderblue;
+    height: 120px;
+    width: 120px;
+}

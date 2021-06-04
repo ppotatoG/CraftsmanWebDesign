@@ -10,12 +10,20 @@ $(document).ready(function(){
             $('.slide ul').css('left',0);	
         });
     },3000);    
-});
 
-$(document).ready(function(){
     $('.nav, .depth_bg').hover(function(){
         $('.depth, .depth_bg').stop().slideDown()	
     }, function(){
         $('.depth, .depth_bg').stop().slideUp()	
     })
-})
+
+    $('.tab .list li').on('click', function(){
+        let thisType = $(this).data('cont')
+
+        $('.tab .list li').removeClass('on')
+        $('.cont >div').removeClass('on')
+
+        $(this).addClass('on')
+        $('.'+thisType).addClass('on')
+    })
+});
