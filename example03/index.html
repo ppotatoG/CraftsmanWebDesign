@@ -10,7 +10,7 @@
 <body>
     <div id="wrap">
         <header>
-            <h1>logo</h1>
+            <h1 class="logo">logo</h1>
             <ul class="nav">
                 <li>
                     <a href="#">강원천문대</a>
@@ -44,9 +44,72 @@
                 </li>
             </ul>
         </header>
-        <div class="contents"></div>
-        <footer></footer>
-        <div class="popup"></div>
+
+        <div class="contents">
+            <section class="slide">
+                <ul>
+                    <li>슬라이드 이미지1</li>
+                    <li style="display: none;">슬라이드 이미지2</li>
+                    <li style="display: none;">슬라이드 이미지3</li>
+                </ul>
+            </section>
+
+            <section class="container">
+
+                <div class="tab">
+                    <ul class="list">
+                        <li data-cont="notice" class="on">공지사항</li>
+                        <li data-cont="gallery">갤러리</li>
+                    </ul>
+                    <div class="inner">
+                        <div class="notice on">
+                            <p onclick="openPop()">공지사항입니다. 공지사항입니다.</p>
+                            <p>공지사항입니다. 공지사항입니다.</p>
+                            <p>공지사항입니다. 공지사항입니다.</p>
+                            <p>공지사항입니다. 공지사항입니다.</p>
+                            <p>공지사항입니다. 공지사항입니다.</p>
+                        </div>
+                        <div class="gallery">
+                            <ul>
+                                <li>갤러리 이미지 1</li>
+                                <li>갤러리 이미지 2</li>
+                                <li>갤러리 이미지 3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>                
+
+                <div class="banner">배너 이미지</div>
+                <div class="go_link">바로가기 이미지</div>
+
+            </section>
+        </div>
+        <footer>
+            <h1 class="logo">logo</h1>
+            <div class="info">
+                <ul>
+                    <li><a href="#">회사 정보</a></li>
+                    <li><a href="#">회사 번호</a></li>
+                    <li><a href="#">회사 주소</a></li>
+                </ul>
+                <p>ppotatoG</p>
+            </div>
+        </footer>
+        <div class="popup">
+            <div class="bg"></div>
+            <div class="inner">
+                <h3>팝업 타이틀</h3>
+                <p>
+                    강원 천문대를 이용해주셔서 감사합니다. <br>
+                    강원 천문대를 이용해주셔서 감사합니다. <br>
+                    강원 천문대를 이용해주셔서 감사합니다. <br>
+                    강원 천문대를 이용해주셔서 감사합니다. <br>
+                    강원 천문대를 이용해주셔서 감사합니다. <br>
+                    강원 천문대를 이용해주셔서 감사합니다. <br>
+                </p>
+                <button onclick="closePop()">닫기</button>
+            </div>            
+        </div>
     </div>
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/js.js"></script>
