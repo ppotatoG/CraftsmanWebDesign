@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+* {
+    color: #333;
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.logo {
+    color: gold;
+    height: 100px;
+    line-height: 100px;
+}
+#wrap {
+    width: 1200px;
+    margin: 0 auto;
+    background: #fff;
+}
+header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 100px;
+    background: ghostwhite;
+    padding: 0 20px;
+}
+header .logo {width: 20%;}
+header .nav {
+    display: flex;
+    height: 100%;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 600px;
+}
+header li:hover {
+    background: gold;
+}
+header li {
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+}
+header .nav >li {
+    position: relative;
+}
+header .depth {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;   
+    z-index: 10;
+    display: none;
+}
+#wrap header .bg {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    background: ghostwhite;
+    display: none;
+}
+
+.slide {
+    width: 100%;
+    height: 300px;
+}
+.slide ul {
+    position: relative;
+    height: 100%;
+}
+.slide li{
+    width: 100%;
+    height: 100%;
+    background: yellowgreen;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.container >*{width: 400px;}
+
+.tab .list {
+    display: flex;
+    align-self: center;
+    height: 40px;
+    line-height: 40px;
+}
+.tab .list li {
+    width: 150px;
+}
+.tab .list li.on {
+    background: gold;
+}
+.tab .cont >*{
+    display: none;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 100%;
+}
+.tab .cont .on{
+    display: block;
+}
+.tab .cont .notice p {
+    text-align: left;
+    padding: 4px 0;
+}
+.tab .gallery ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.tab .gallery ul li {
+    background: cadetblue;
+    width: 110px;
+    height: 150px;
+}
