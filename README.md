@@ -5,4 +5,7 @@
 [시험정보](http://www.q-net.or.kr/crf005.do?id=crf00503&jmCd=7798) [공개문제](http://www.q-net.or.kr/cst006.do?id=cst00602&gSite=Q&gId=&brdId=Q006&code=1204&artlSeq=5199079)
 
 - ### A-1 JUST쇼핑몰
-    [demo](https://ppotatog.github.io/CraftsmanWebDesign/example01/)
+    [demo](https://ppotatog.github.io/CraftsmanWebDesign/example01/){: target="_blank"}
+
+- ### A-1 Green복지재단
+    [demo](https://ppotatog.github.io/CraftsmanWebDesign/example02/){: target="_blank"}
