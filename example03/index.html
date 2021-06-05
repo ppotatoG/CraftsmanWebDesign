@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>강원천문대</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="wrap">
+        <header>
+            <h1 class="logo">logo</h1>
+            <ul class="nav">
+                <li>
+                    <a href="#">강원천문대</a>
+                    <ul class="depth">
+                        <li><a href="#">천문대소개</a></li>
+                        <li><a href="#">인사말</a></li>
+                        <li><a href="#">오시는길</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">이용안내</a>
+                    <ul class="depth">
+                        <li><a href="#">프로그램</a></li>
+                        <li><a href="#">관람시간표</a></li>
+                        <li><a href="#">이달의 별자리</a></li>
+                    </ul>
+                </li><li>
+                    <a href="#">천문대예약</a>
+                    <ul class="depth">
+                        <li><a href="#">예약하기</a></li>
+                        <li><a href="#">예약확인</a></li>
+                        <li><a href="#">예취소</a></li>
+                    </ul>
+                </li><li>
+                    <a href="#">커뮤니티</a>
+                    <ul class="depth">
+                        <li><a href="#">공지사항</a></li>
+                        <li><a href="#">방문후기</a></li>
+                        <li><a href="#">자유게시판</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </header>
+
+        <div class="contents">
+            <section class="slide">
+                <ul>
+                    <li>슬라이드 이미지1</li>
+                    <li style="display: none;">슬라이드 이미지2</li>
+                    <li style="display: none;">슬라이드 이미지3</li>
+                </ul>
+            </section>
+
+            <section class="container">
+
+                <div class="tab">
+                    <ul class="list">
+                        <li data-cont="notice" class="on">공지사항</li>
+                        <li data-cont="gallery">갤러리</li>
+                    </ul>
+                    <div class="inner">
+                        <div class="notice on">
+                            <p onclick="openPop()">공지사항입니다. 공지사항입니다.</p>
+                            <p>공지사항입니다. 공지사항입니다.</p>
+                            <p>공지사항입니다. 공지사항입니다.</p>
+                            <p>공지사항입니다. 공지사항입니다.</p>
+                            <p>공지사항입니다. 공지사항입니다.</p>
+                        </div>
+                        <div class="gallery">
+                            <ul>
+                                <li>갤러리 이미지 1</li>
+                                <li>갤러리 이미지 2</li>
+                                <li>갤러리 이미지 3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>                
+
+                <div class="banner">배너 이미지</div>
+                <div class="go_link">바로가기 이미지</div>
+
+            </section>
+        </div>
+        <footer>
+            <h1 class="logo">logo</h1>
+            <div class="info">
+                <ul>
+                    <li><a href="#">회사 정보</a></li>
+                    <li><a href="#">회사 번호</a></li>
+                    <li><a href="#">회사 주소</a></li>
+                </ul>
+                <p>ppotatoG</p>
+            </div>
+        </footer>
+        <div class="popup">
+            <div class="bg"></div>
+            <div class="inner">
+                <h3>팝업 타이틀</h3>
+                <p>
+                    강원 천문대를 이용해주셔서 감사합니다. <br>
+                    강원 천문대를 이용해주셔서 감사합니다. <br>
+                    강원 천문대를 이용해주셔서 감사합니다. <br>
+                    강원 천문대를 이용해주셔서 감사합니다. <br>
+                    강원 천문대를 이용해주셔서 감사합니다. <br>
+                    강원 천문대를 이용해주셔서 감사합니다. <br>
+                </p>
+                <button onclick="closePop()">닫기</button>
+            </div>            
+        </div>
+    </div>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/js.js"></script>
+</body>
+</html>
