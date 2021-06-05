@@ -9,22 +9,19 @@ $(document).ready(function(){
 
     $('.slide li').eq(0).fadeIn()
 
-    // setInterval(function(){
-    //     if(slideNum < 2) slideNum ++
-    //     else slideNum = 0
+    setInterval(function(){
+        if(slideNum < 2) slideNum ++
+        else slideNum = 0
 
-    //     $('.slide li').fadeOut()
-    //     $('.slide li').eq(slideNum).fadeIn()
+        $('.slide li').fadeOut()
+        $('.slide li').eq(slideNum).fadeIn()
 
-    // }, 3000)
-
-    $('.tab .list li').on('click', function(){
-        let thisType = $(this).data('type')
-
-        $('.tab .list li').removeClass('on')
-        $('.tab .cont >div').removeClass('on')
-
-        $(this).addClass('on')
-        $('.'+thisType).addClass('on')
-    })
+    }, 3000)
 })
+function openPop(){
+    $('.popup').fadeIn()
+}
+
+function closePop(){
+    $('.popup').fadeOut()
+}

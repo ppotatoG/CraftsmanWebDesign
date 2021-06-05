@@ -58,29 +58,57 @@
             </section>
 
             <section class="container">
-                <div class="tab">
-                    <ul class="list">
-                        <li data-type="notice" class="on">공지사항</li>
-                        <li data-type="gallery">갤러리</li>
-                    </ul>
-                    <div class="cont">
-                        <div class="notice on">
-                            <p>공지사항 입니다. 공지사항 입니다.</p>
-                            <p>공지사항 입니다. 공지사항 입니다.</p>
-                            <p>공지사항 입니다. 공지사항 입니다.</p>
-                            <p>공지사항 입니다. 공지사항 입니다.</p>
-                            <p>공지사항 입니다. 공지사항 입니다.</p>
-                        </div>
-                        <div class="gallery">
-                            <ul>
-                                <li>갤러리 이미지1</li>
-                                <li>갤러리 이미지2</li>
-                                <li>갤러리 이미지3</li>
-                            </ul>
-                        </div>
-                    </div>
+
+                <div class="notice">
+                    <p onclick="openPop()">공지사항 입니다. 공지사항 입니다.</p>
+                    <p>공지사항 입니다. 공지사항 입니다.</p>
+                    <p>공지사항 입니다. 공지사항 입니다.</p>
+                    <p>공지사항 입니다. 공지사항 입니다.</p>
+                    <p>공지사항 입니다. 공지사항 입니다.</p>
                 </div>
+
+                <div class="gallery">
+                    <ul>
+                        <li>갤러리 이미지1</li>
+                        <li>갤러리 이미지2</li>
+                        <li>갤러리 이미지3</li>
+                    </ul>
+                </div>
+
+                <div class="banner">배너 이미지</div>
             </section>
+        </div>
+
+        <footer>
+            <div class="info">
+                <ul class="list">
+                    <li>회사 정보</li>
+                    <li>회사 번호</li>
+                    <li>회사 주소</li>
+                </ul>
+                <p>ppotatoG</p>
+            </div>
+            <div class="inner">
+                <select name="" id="">
+                    <option value="">패밀리사이트</option>
+                    <option value="">패밀리사이트</option>
+                    <option value="">패밀리사이트</option>
+                    <option value="">패밀리사이트</option>
+                    <option value="">패밀리사이트</option>
+                </select>
+            </div>            
+        </footer>
+
+        <div class="popup">
+            <div class="inner">
+                <h3>타이틀</h3>
+                <p>
+                    안녕하세요 유진건설입니다.<br>
+                    오늘 점심 메뉴는 떡볶이<br>
+                    어묵이랑 핫도그를 넣어서 야무지게 먹어보자
+                </p>
+                <button onclick="closePop()">닫기</button>
+            </div>            
         </div>
     </div>
     <script src="js/jquery-3.6.0.min.js"></script>

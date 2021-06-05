@@ -46,6 +46,7 @@ header li {
     width: 120px;
     height: 40px;
     line-height: 40px;
+    transition: .2s;
 }
 header .nav >li {
     position: relative;
@@ -55,8 +56,12 @@ header .depth {
     top: 40px;
     left: 0;
     width: 100%;   
-    z-index: 10;
+    z-index: 11;
     display: none;
+}
+header .depth li:hover {
+    background: #fff;
+    color: #333;
 }
 #wrap header .bg {
     position: absolute;
@@ -64,8 +69,9 @@ header .depth {
     left: 0;
     width: 100%;
     height: 120px;
-    background: ghostwhite;
+    background: gold;
     display: none;
+    z-index: 10;
 }
 
 .slide {
@@ -85,42 +91,73 @@ header .depth {
     left: 0;
     display: none;
 }
-.container >*{width: 400px;}
-
-.tab .list {
+.container {
     display: flex;
-    align-self: center;
-    height: 40px;
-    line-height: 40px;
 }
-.tab .list li {
-    width: 150px;
-}
-.tab .list li.on {
-    background: gold;
-}
-.tab .cont >*{
-    display: none;
+.container >*{
+    width: 400px;
     padding: 10px;
     box-sizing: border-box;
-    height: 100%;
 }
-.tab .cont .on{
-    display: block;
-}
-.tab .cont .notice p {
+
+.notice p {
     text-align: left;
     padding: 4px 0;
 }
-.tab .gallery ul {
+.gallery ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 100%;
     height: 100%;
 }
-.tab .gallery ul li {
+.gallery ul li {
     background: cadetblue;
     width: 110px;
     height: 150px;
+    transition: .2s;
+}
+.gallery ul li:hover {
+    opacity: .8;
+}
+.banner {background: silver;}
+
+footer {
+    display: flex;
+    height: 100px;
+}
+footer .inner {
+    width: 30px;
+    margin: 0 auto;
+}
+footer .info {
+    width: 70%;
+}
+footer .info .list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    width: 400px;
+    margin: 0 auto;
+}
+footer p {
+    height: 50px;
+    line-height: 50px;
+}
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.popup .inner {
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    background: #fff;
+    top: calc(50% - 200px);
+    left: calc(50% - 150px);
 }
