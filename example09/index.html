@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>해운대 빛축제</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="wrap">
+        <header>
+            <h1 class="logo">해운대 빛축제</h1>
+            <ul class="nav">
+                <li>
+                    <a href="#">이용안내</a>
+                    <ul class="depth">
+                        <li><a href="#">이용방법</a></li>
+                        <li><a href="#">이용시간</a></li>
+                        <li><a href="#">이용요금</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">이벤트 정보</a>
+                    <ul class="depth">
+                        <li><a href="#">현장이벤트</a></li>
+                        <li><a href="#">온라인이벤트</a></li>
+                        <li><a href="#">이벤트예약</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">프로그램</a>
+                    <ul class="depth">
+                        <li><a href="#">프로그램</a></li>
+                        <li><a href="#">온라인예약</a></li>
+                        <li><a href="#">단체예약상담</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">고객센터</a>
+                    <ul class="depth">
+                        <li><a href="#">공지사항</a></li>
+                        <li><a href="#">자주묻는질문</a></li>
+                        <li><a href="#">자료실</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </header>
+
+        <div class="contents">
+            <section class="slide">
+                <ul>
+                    <li>슬라이드이미지 1</li>
+                    <li>슬라이드이미지 2</li>
+                    <li>슬라이드이미지 3</li>
+                </ul>
+            </section>
+
+            <section class="container">
+                <div class="tab">
+                    <ul class="list">
+                        <li class="on" data-type="notice">공지사항</li>
+                        <li data-type="gallery">갤러리</li>
+                    </ul>
+                    <div class="cont">
+                        <div class="notice on">
+                            <p onclick="openPop('.popup')">공지사항입니다. 공지사항입니다. </p>
+                            <p>공지사항입니다. 공지사항입니다. </p>
+                            <p>공지사항입니다. 공지사항입니다. </p>
+                            <p>공지사항입니다. 공지사항입니다. </p>
+                        </div>
+                        <div class="gallery">
+                            <ul>
+                                <li>갤러리 이미지1</li>
+                                <li>갤러리 이미지3</li>
+                                <li>갤러리 이미지2</li>
+                            </ul>
+                        </div>
+                        
+                    </div>  
+                </div>
+
+                <div class="banner">배너 이미지</div>
+                <div class="go_link">바로가기 이미지</div>
+            </section>
+
+            <footer>
+                <h1 class="logo">해운대 빛축제</h1>
+                <div class="inner">
+                    <ul class="info">
+                        <li>회사 정보</li>
+                        <li>회사 번호</li>
+                        <li>회사 주소</li>
+                    </ul>
+                    <p>ppotatoG</p>
+                </div>
+            </footer>
+        </div>
+
+        <div class="popup">
+            <div class="inner">
+                <h3>팝업 타이틀</h3>
+                <p>
+                    팝업 내용 팝업 내용 팝업 내용 팝업 내용
+                    팝업 내용 팝업 내용 팝업 내용 팝업 내용
+                    팝업 내용 팝업 내용 팝업 내용 팝업 내용
+                    팝업 내용 팝업 내용 팝업 내용 팝업 내용
+                    팝업 내용 팝업 내용 팝업 내용 팝업 내용
+                    팝업 내용 팝업 내용 팝업 내용 팝업 내용
+                    팝업 내용 팝업 내용 팝업 내용 팝업 내용
+                    팝업 내용 팝업 내용 팝업 내용 팝업 내용
+                </p>
+                <button onclick="closePop('.popup')">닫기</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/js.js"></script>
+</body>
+</html>
