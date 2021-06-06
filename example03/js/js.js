@@ -1,9 +1,9 @@
 $(document).ready(function(){
+    let num = 0
+
     $('.slide ul li').eq(num).fadeIn()
 
     setInterval(function(){
-        let num = 0
-
         if(num < 2) {
             num ++
         } else {
