@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>대한은행</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="wrap">
+        <header>
+            <h1 class="logo">대한은행</h1>
+            <ul class="nav">
+                <li>
+                    <a href="#">개인</a>
+                    <ul class="depth">
+                        <li><a href="#">조회</a></li>
+                        <li><a href="#">이체</a></li>
+                        <li><a href="#">공과금</a></li>
+                        <li><a href="#">예금/신탁</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">기업</a>
+                    <ul class="depth">
+                        <li><a href="#">조회</a></li>
+                        <li><a href="#">이체</a></li>
+                        <li><a href="#">전자결제</a></li>
+                        <li><a href="#">수표/어음</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">금융상품</a>
+                    <ul class="depth">
+                        <li><a href="#">저축상품</a></li>
+                        <li><a href="#">대출상품</a></li>
+                        <li><a href="#">투지상품</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">카드</a>
+                    <ul class="depth">
+                        <li><a href="#">카드정보</a></li>
+                        <li><a href="#">카드신청</a></li>
+                        <li><a href="#">이용내역조회</a></li>
+                    </ul>
+                </li>
+                <li class="bg"></li>
+            </ul>
+        </header>
+
+        <div class="contents">
+            <section class="slide">
+                <ul>
+                    <li>슬라이드 이미지 1</li>
+                    <li>슬라이드 이미지 2</li>
+                    <li>슬라이드 이미지 3</li>
+                </ul>
+            </section>
+
+            <section class="container">
+                <div class="tab">
+                    <ul class="list">
+                        <li data-type="notice" class="on">공지사항</li>
+                        <li data-type="gallery">갤러리</li>
+                    </ul>
+                    <div class="cont">
+                        <div class="notice on">
+                            <p  onclick="openPop()">공지사항입니다. 공지사항입니다.</p>
+                            <p>공지사항입니다. 공지사항입니다.</p>
+                            <p>공지사항입니다. 공지사항입니다.</p>
+                            <p>공지사항입니다. 공지사항입니다.</p>
+                            <p>공지사항입니다. 공지사항입니다.</p>
+                        </div>
+                        <div class="gallery">
+                            <ul>
+                                <li>갤러리 이미지 1</li>
+                                <li>갤러리 이미지 2</li>
+                                <li>갤러리 이미지 3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>   
+                
+                <div class="banner">배너 이미지 1</div>
+                <div class="go_link">바로가기 이미지 1</div>
+            </section>
+        </div>
+        <footer>
+            <h1 class="logo">대한은행</h1>
+            <div class="inner">
+                <ul class="info">
+                    <li>회사 정보</li>
+                    <li>회사 주소</li>
+                    <li>회사 번호</li>
+                    <li>대표이사 : 홍길동</li>
+                </ul>
+                <p>ppotatoG</p>
+            </div>
+        </footer>
+        
+        <div class="popup">
+            <div class="inner">
+                <h3>팝업 타이틀</h3>
+                <p>
+                    안녕하세요. 대한은행 대표이사 홍길동 입니다.<br>
+                    코로나로 힘든 이 시기를 위해 특별 적금이 생겼으니 많은 관심 부탁드립니다.
+                </p>
+                <button onclick="closePop()">닫기</button>
+            </div>
+        </div>
+        
+    </div>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/js.js"></script>
+</body>
+</html>
