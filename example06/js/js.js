@@ -13,5 +13,4 @@ $(document).ready(function(){
             $('.slide ul').css({top :0})
         })        
     }, 3000);
-
 })

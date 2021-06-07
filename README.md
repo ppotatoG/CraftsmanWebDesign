@@ -39,3 +39,15 @@
 
 [demo](https://ppotatog.github.io/CraftsmanWebDesign/example05/)
 [github](https://github.com/ppotatoG/CraftsmanWebDesign/tree/master/example05)
+
+### B-2 대한투어
+#가로 배경 메뉴 #세로 슬라이드 #배경 팝업
+
+[demo](https://ppotatog.github.io/CraftsmanWebDesign/example06/)
+[github](https://github.com/ppotatoG/CraftsmanWebDesign/tree/master/example06)
+
+### C-1 해운대 빛축제
+#세로 메뉴 #Fade-in 슬라이드 #일반 팝업 #탭메뉴
+
+[demo](https://ppotatog.github.io/CraftsmanWebDesign/example09/)
+[github](https://github.com/ppotatoG/CraftsmanWebDesign/tree/master/example09)
