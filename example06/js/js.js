@@ -1,10 +1,9 @@
 $(document).ready(function(){
     $('.nav >li').hover(function(){
         $('.depth, .bg').stop().slideDown()
-    },function(){
+    }, function(){
         $('.depth, .bg').stop().slideUp()
     })
-
     setInterval(() => {
         $('.slide ul').animate({
             top: '-300px'
@@ -14,3 +13,10 @@ $(document).ready(function(){
         })        
     }, 3000);
 })
+
+function openPop(el){
+    $(el).fadeIn()
+}
+function clodePop(el){
+    $(el).fadeOut()
+}
