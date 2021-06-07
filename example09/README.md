@@ -1,7 +1,7 @@
 # C-1 해운대 빛축제
 [demo](https://ppotatog.github.io/CraftsmanWebDesign/example09/)
 
-작업시간 : 80분
+작업시간 : 60분
 
 Jquery
 ```

@@ -1,7 +1,9 @@
 # B-2 대한투어
 [demo](https://ppotatog.github.io/CraftsmanWebDesign/example06/)
 
-작업시간 : 80분
+작업시간 : 기억안남
+
+헤더가 왔다리 갔다리 하는데 왜그러는지 원인 아시는 분 공유 부탁드립니다 (￣(ｴ)￣)ﾉ
 
 Jquery
 ```
