@@ -51,3 +51,10 @@
 
 [demo](https://ppotatog.github.io/CraftsmanWebDesign/example09/)
 [github](https://github.com/ppotatoG/CraftsmanWebDesign/tree/master/example09)
+
+
+### C-2 부여 가을연꽃축제
+#세로 메뉴 #Fade-in 슬라이드 #배경 팝업
+
+[demo](https://ppotatog.github.io/CraftsmanWebDesign/example10/)
+[github](https://github.com/ppotatoG/CraftsmanWebDesign/tree/master/example10)
