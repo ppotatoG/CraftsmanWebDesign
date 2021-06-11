@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>남도맛기행 축제</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="wrap">
+        <header>
+            <h1 class="logo">남도맛기행 축제</h1>
+            <ul class="nav">
+                <li>
+                    <a href="#">협회소개</a>
+                    <ul class="depth">
+                        <li><a href="#">인사말</a></li>
+                        <li><a href="#">명인</a></li>
+                        <li><a href="#">오시는길</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">행사안내</a>
+                    <ul class="depth">
+                        <li><a href="#">요리경연대회</a></li>
+                        <li><a href="#">전시참가</a></li>
+                        <li><a href="#">참가신청</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">홍보마당</a>
+                    <ul class="depth">
+                        <li><a href="#">축제소식</a></li>
+                        <li><a href="#">보도자료</a></li>
+                        <li><a href="#">레시피</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">회원마당</a>
+                    <ul class="depth">
+                        <li><a href="#">Q&A</a></li>
+                        <li><a href="#">사진갤러리</a></li>
+                        <li><a href="#">공지사항</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </header>
+
+        <div class="contents">
+            <section class="slide">
+                <ul>
+                    <li>슬라이드 이미지1</li>
+                    <li>슬라이드 이미지2</li>
+                    <li>슬라이드 이미지3</li>
+                </ul>
+            </section>
+
+            <section class="container">
+                <div class="notice">
+                    <h3>공지사항</h3>
+                    <p onclick="openPop('.popup')">공지사항 입니다.</p>
+                    <p>공지사항 입니다.</p>
+                    <p>공지사항 입니다.</p>
+                    <p>공지사항 입니다.</p>
+                </div>
+                <div class="gallery">
+                    <h3>갤러리</h3>
+                    <ul>
+                        <li>갤러리 이미지 1</li>
+                        <li>갤러리 이미지 2</li>
+                        <li>갤러리 이미지 3</li>
+                    </ul>
+                </div>
+                <div class="banner">배너 이미지 1</div>
+            </section>
+
+            <footer>
+                <h1 class="logo">남도맛기행 축제</h1>
+                <div class="inner">
+                    <ul class="info">
+                        <li>회사 정보</li>
+                        <li>회사 번호</li>
+                        <li>회사 주소</li>
+                    </ul>
+                    <p>ppotatoG</p>
+                </div>
+            </footer>
+        </div>
+
+        <div class="popup">
+            <div class="inner">
+                <h3>팝업 타이틀</h3>
+                <p>
+                    팝업 내용 팝업 내용 팝업 내용 팝업 내용 팝업 내용 
+                    팝업 내용 팝업 내용 팝업 내용 팝업 내용 팝업 내용 
+                    팝업 내용 팝업 내용 팝업 내용 팝업 내용 팝업 내용 
+                    팝업 내용 팝업 내용 팝업 내용 팝업 내용 팝업 내용                     팝업 내용 팝업 내용 팝업 내용 팝업 내용 팝업 내용 
+                    팝업 내용 팝업 내용 팝업 내용 팝업 내용 팝업 내용                     팝업 내용 팝업 내용 팝업 내용 팝업 내용 팝업 내용 
+                    팝업 내용 팝업 내용 팝업 내용 팝업 내용 팝업 내용   
+                </p>
+                <button onclick="closePop('.popup')">닫기</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/js.js"></script>
+</body>
+</html>
