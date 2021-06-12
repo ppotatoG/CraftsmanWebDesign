@@ -4,8 +4,6 @@ $(document).ready(function(){
 
     $('.slide ul').width(slideLength*slideWidth+'px')
 
-    console.log($('.slide ul').width())
-
     setInterval(() => {
         $('.slide ul').animate({
             left : -slideWidth
