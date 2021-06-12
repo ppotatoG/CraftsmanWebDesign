@@ -1,0 +1,21 @@
+@charset "uft-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    color: #333;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+}
+a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+#wrap {
+    width: 1000px;
+    height: 650px;
+    background: #fff;
+}
