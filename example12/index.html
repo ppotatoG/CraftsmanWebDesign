@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vallery Festival</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div id="wrap">
         <header>
-            <h1 class="logo">Vallery Festival</h1>
+            <h1 class="logo"><img src="img/logo.png" alt="Vallery Festival"></h1>
             <ul class="nav">
                 <li>
                     <a href="#">축제소개</a>
@@ -49,12 +50,61 @@
         <div class="contents">
             <section class="slide">
                 <ul>
-                    <li>슬라이드 이미지1</li>
-                    <li>슬라이드 이미지2</li>
-                    <li>슬라이드 이미지3</li>
+                    <li><img src="img/slide01.jpg" alt="Vallery Festival 슬라이드 이미지 1"></li>
+                    <li><img src="img/slide02.jpg" alt="Vallery Festival 슬라이드 이미지 2"></li>
+                    <li><img src="img/slide03.jpg" alt="Vallery Festival 슬라이드 이미지 3"></li>
                 </ul>
             </section>
+            <section class="container">
+                <div class="notice">
+                    <h3>공지사항</h3>
+                    <p onclick="openPop('.popup')">V.F 2021 사전예약 안내</p>
+                    <p>V.F 2021 라인업</p>
+                    <p>페스티벌을 위한 코로나 예방법</p>
+                    <p>V.F 2021 공지사항</p>
+                    <p>V.F 2021 예정 안내</p>
+                </div>
+                <div class="gallery">
+                    <h3>갤러리</h3>
+                    <ul>
+                        <li><img src="img/gallery01.jpg" alt="Vallery Festival 갤러리 이미지 1"></li>
+                        <li><img src="img/gallery02.jpg" alt="Vallery Festival 갤러리 이미지 2"></li>
+                        <li><img src="img/gallery03.jpg" alt="Vallery Festival 갤러리 이미지 3"></li>
+                    </ul>
+                </div>
+                <div class="banner">바로가기 이미지</div>
+            </section>
+
+            <footer>
+                <h1 class="logo"><img src="img/logo.png" alt="Vallery Festival"></h1>
+                <p>ppotatoG</p>
+                <select name="" id="">
+                    <option value="">패밀리사이트</option>
+                    <option value="">패밀리사이트</option>
+                    <option value="">패밀리사이트</option>
+                    <option value="">패밀리사이트</option>
+                    <option value="">패밀리사이트</option>
+                    <option value="">패밀리사이트</option>
+                    <option value="">패밀리사이트</option>
+                </select>
+            </footer>
+        </div>
+
+        <div class="popup">
+            <div class="bg"></div>
+            <div class="inner">
+                <h3>안녕하세요.<br> Vallery Festival 입니다.</h3>
+                <p>
+                    그동안 저희 Vallery Festival 기다려주신 많은 분들에게 감사 인사를 드립니다.<br>
+                    많은 분들에 성원 덕분에 저희 Vallery Festival는 8월 10일 ~14일 진행하게 되었습니다. <br>
+                    자세한 사항은 공지사항을 확인해주시기 바랍니다. <br>
+                    <a href="#">자세히 보기 ></a>
+                </p>
+                <button onclick="closePop('.popup')">닫기</button>
+            </div>
         </div>
     </div>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/js.js"></script>
 </body>
 </html>
